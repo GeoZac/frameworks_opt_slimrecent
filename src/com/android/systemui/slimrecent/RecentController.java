@@ -515,10 +515,10 @@ public class RecentController implements RecentPanelView.OnExitListener,
         }
     }
 
-    @Override
+    /*@Override
     public boolean splitPrimaryTask(int stackCreateMode, Rect initialBounds,
                                     int metricsDockAction) {
-        /* TODO
+        TODO
         SystemServicesProxy ssp = SystemServicesProxy.getInstance(mContext);
         ActivityManager.RunningTaskInfo runningTask =
                 ActivityManagerWrapper.getInstance().getRunningTask();
@@ -547,9 +547,8 @@ public class RecentController implements RecentPanelView.OnExitListener,
             }
             return true;
         }
-        */
         return false;
-    }
+    }*/
 
     protected void startTaskinMultiWindow(int id) {
         final ActivityOptions options =
